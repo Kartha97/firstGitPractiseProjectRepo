@@ -3,8 +3,9 @@ from flask import render_template
 from  . controller import ControllerBase
 
 
-class IndexController(ControllerBase):
+
+class AboutController(ControllerBase):
     @staticmethod
     def get():
         name = "Kartha"
-        return render_template('index.html', name=name)
+        return render_template('about.html', name=name)
