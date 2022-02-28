@@ -3,6 +3,7 @@ from flask import render_template
 from  . controller import ControllerBase
 
 
+
 class AboutController(ControllerBase):
     @staticmethod
     def get():
